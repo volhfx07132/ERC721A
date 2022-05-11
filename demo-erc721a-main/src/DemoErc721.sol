@@ -6,7 +6,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 contract DemoErc721 is ERC721Enumerable {
 
-    uint256 maxBatchSize = 0;
+    uint256 maxBatchSize1 = 0;
 
     constructor(uint256 _maxBatchSize) ERC721("Chibi Shinobis", "ChibiShinobis") {
         require(_maxBatchSize > 0, "must set maxBatchSize");
